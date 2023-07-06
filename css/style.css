@@ -23,6 +23,8 @@ h1, h2, p {
   
   h1 {
     font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
   }
   h2 {
     font-size: 30px
@@ -103,8 +105,14 @@ footer {
   font-size: 14px;
 }
 a:visited {
-  color: grey;
+  color: black;
 }
 a:hover {
   color: brown;
+}
+a:active {
+  color: brown;
+}
+.address {
+  margin-bottom: 5px;
 }
